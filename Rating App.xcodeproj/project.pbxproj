@@ -12,7 +12,6 @@
 		4BAE7A6C1BDCC4050023C73B /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE7A6A1BDCC4050023C73B /* SearchTableViewCell.swift */; };
 		4BAE7A6D1BDCC4050023C73B /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BAE7A6B1BDCC4050023C73B /* SearchTableViewCell.xib */; };
 		4BAE7A841BDD664C0023C73B /* DetailSearchUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE7A831BDD664C0023C73B /* DetailSearchUsersViewController.swift */; };
-		4BB5C2BE1BD9B779004CACF8 /* HomeTopRatedUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5C2BD1BD9B779004CACF8 /* HomeTopRatedUsersViewController.swift */; };
 		4BB5C2C21BD9B7D8004CACF8 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5C2C01BD9B7D8004CACF8 /* SignInViewController.swift */; };
 		4BB5C2C31BD9B7D8004CACF8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5C2C11BD9B7D8004CACF8 /* SignUpViewController.swift */; };
 		4BB5C2C71BD9B84C004CACF8 /* BTNavigationDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5C2C51BD9B84C004CACF8 /* BTNavigationDropdownMenu.swift */; };
@@ -63,7 +62,6 @@
 		4BAE7A6A1BDCC4050023C73B /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		4BAE7A6B1BDCC4050023C73B /* SearchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
 		4BAE7A831BDD664C0023C73B /* DetailSearchUsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailSearchUsersViewController.swift; sourceTree = "<group>"; };
-		4BB5C2BD1BD9B779004CACF8 /* HomeTopRatedUsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTopRatedUsersViewController.swift; sourceTree = "<group>"; };
 		4BB5C2C01BD9B7D8004CACF8 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		4BB5C2C11BD9B7D8004CACF8 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		4BB5C2C51BD9B84C004CACF8 /* BTNavigationDropdownMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTNavigationDropdownMenu.swift; sourceTree = "<group>"; };
@@ -218,7 +216,6 @@
 				4BB5C2BF1BD9B7B1004CACF8 /* SignIn:SignUp */,
 				4BB5C2C41BD9B81A004CACF8 /* Helper */,
 				4BAE7A661BDC974C0023C73B /* Model */,
-				4BB5C2BD1BD9B779004CACF8 /* HomeTopRatedUsersViewController.swift */,
 				4BF47D2E1BD868CB0020B9DC /* UserProfileViewController.swift */,
 				4BAE7A601BDC7C310023C73B /* SearchViewController.swift */,
 				4BAE7A831BDD664C0023C73B /* DetailSearchUsersViewController.swift */,
@@ -391,7 +388,6 @@
 				4BAE7A6C1BDCC4050023C73B /* SearchTableViewCell.swift in Sources */,
 				FEACDBB01BC37BEA00DE19B0 /* AppDelegate.swift in Sources */,
 				4BB5C2C31BD9B7D8004CACF8 /* SignUpViewController.swift in Sources */,
-				4BB5C2BE1BD9B779004CACF8 /* HomeTopRatedUsersViewController.swift in Sources */,
 				4BB5C2C71BD9B84C004CACF8 /* BTNavigationDropdownMenu.swift in Sources */,
 				4BE1DB891BD313140093B553 /* CosmosViewController.swift in Sources */,
 				4BB5C2C81BD9B84C004CACF8 /* CosmosDistrib.swift in Sources */,

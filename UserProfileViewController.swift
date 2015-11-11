@@ -64,12 +64,18 @@ class UserProfileViewController: UIViewController {
             print("backgroundImage: no")
         }
        
-        /* Image Settings: Profile Image */
+        ///* Image Settings: Profile Image *///
         usersProfileImage.layer.backgroundColor = UIColor.clearColor().CGColor
         usersProfileImage.layer.cornerRadius = usersProfileImage.frame.height / 2
         usersProfileImage.layer.borderWidth = 2.0
         usersProfileImage.layer.masksToBounds = true
         usersProfileImage.layer.borderColor = UIColor.blackColor().CGColor
+        
+        ///* Image Settings: Background Image *///
+        usersBackgroundImage.layer.backgroundColor = UIColor.clearColor().CGColor
+        usersBackgroundImage.layer.borderWidth = 2.0
+        usersBackgroundImage.layer.masksToBounds = true
+        usersBackgroundImage.layer.borderColor = UIColor.blackColor().CGColor
     }
     
     /* Select Photo */
@@ -91,7 +97,7 @@ class UserProfileViewController: UIViewController {
         }
         
         // Choose from Photo Library
-        let libButton = UIAlertAction(title: "Pick existing", style: .Default) { (alert) -> Void in
+        let libButton = UIAlertAction(title: "Choose existing photo", style: .Default) { (alert) -> Void in
             let imagePicker = UIImagePickerController()
             imagePicker.sourceType = .PhotoLibrary
             self.presentViewController(imagePicker, animated: true, completion: nil)
